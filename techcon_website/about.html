@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechCon 2024 - Home</title>
+    <title>About TechCon 2024</title>
+    <link rel="stylesheet" href="style.css"> <!-- Optional -->
 </head>
 <body>
     <!-- Header Section -->
     <header>
-        <h1>TechCon 2024</h1>
+        <h1>About TechCon 2024</h1>
         <nav>
             <ul>
-                <li><a href="about.html">About</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="schedule.html">Schedule</a></li>
                 <li><a href="register.html">Register</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -20,24 +21,37 @@
     </header>
     <!-- Main Content -->
     <main>
-        <section>
-            <h2>Welcome to TechCon 2024</h2>
-            <p>
-                TechCon 2024 brings together innovators, developers, creators, and technology enthusiasts 
-                from around the world for an unforgettable conference filled with learning, networking, and cutting-edge discoveries.
-            </p>
-            <!-- Embedded Promotional Video -->
-            <video controls width="600">
-                <source src="promo.mp4" type="video/mp4">
-                <track src="promo_subtitles.vtt" kind="subtitles" srclang="en" label="English">
-                Your browser does not support the video tag. Here is a 
-                <a href="promo.mp4">link to the video</a> instead.
-            </video>
-        </section>
+        <!-- History Section -->
+        <article id="history">
+            <h2>History</h2>
+            <p>TechCon started in [Year] as a small gathering of tech enthusiasts. Over the years, it has grown into an international conference attracting innovators from all over the world.</p>
+            <img src="images/history.jpg" alt="Early TechCon conference photo" width="600">
+        </article>
+        <!-- Mission Section -->
+        <article id="mission">
+            <h2>Mission</h2>
+            <p>Our mission is to inspire innovation, share knowledge, and foster collaboration in the tech community. We aim to empower attendees with skills and insights to make an impact.</p>
+            <img src="images/mission.jpg" alt="Illustration representing TechCon mission" width="600">
+        </article>
+        <!-- Past Speakers Section -->
+        <article id="speakers">
+            <h2>Past Speakers</h2>
+            <section>
+                <h3>Jane Doe</h3>
+                <img src="images/jane_doe.jpg" alt="Jane Doe, AI Specialist" width="200">
+                <p>Jane Doe is an AI expert who has contributed significantly to advancements in machine learning and robotics.</p>
+            </section>
+            <section>
+                <h3>John Smith</h3>
+                <img src="images/john_smith.jpg" alt="John Smith, Software Engineer" width="200">
+                <p>John Smith is a software engineer known for developing innovative cloud computing solutions.</p>
+            </section>
+            <!-- Add more speakers here if needed -->
+        </article>
     </main>
     <!-- Footer Section -->
     <footer>
-        <p>Copyright © 2024 TechCon Conference. All rights reserved.</p>
+        <p>&copy; 2024 TechCon. All rights reserved.</p>
     </footer>
 </body>
 </html>
