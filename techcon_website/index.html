@@ -3,41 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechCon 2024 - Home</title>
+    <title>SmileSchool</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Header Section -->
+    <!-- HEADER -->
     <header>
-        <h1>TechCon 2024</h1>
+        <a href="#">
+            <img src="https://fakeimg.pl/200x60?text=Logo" alt="SmileSchool logo">
+        </a>
         <nav>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="schedule.html">Schedule</a></li>
-                <li><a href="register.html">Register</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <a href="#">COURSES</a>
+            <a href="#">PRICING</a>
+            <a href="#">LOGIN</a>
         </nav>
     </header>
-    <!-- Main Content -->
     <main>
-        <section>
-            <h2>Welcome to TechCon 2024</h2>
-            <p>
-                TechCon 2024 brings together innovators, developers, creators, and technology enthusiasts 
-                from around the world for an unforgettable conference filled with learning, networking, and cutting-edge discoveries.
-            </p>
-            <!-- Embedded Promotional Video -->
-            <video controls width="600">
-                <source src="promo.mp4" type="video/mp4">
-                <track src="promo_subtitles.vtt" kind="subtitles" srclang="en" label="English">
-                Your browser does not support the video tag. Here is a 
-                <a href="promo.mp4">link to the video</a> instead.
-            </video>
+        <!-- BANNER -->
+        <section class="banner">
+            <div class="banner-left">
+                <h1>Get Schooled</h1>
+                <p>Smiles • Grin • Laugh</p>
+                <button>REGISTER FOR FREE</button>
+            </div>
+            <div class="banner-right">
+                <h2>Learn from the Pros</h2>
+                <div class="pros">
+                    <div>
+                        <img src="https://fakeimg.pl/150x150?text=Pro1" alt="Professional 1">
+                        <h3>Phillip Massey</h3>
+                        <p>Smile of the year</p>
+                    </div>
+                    <div>
+                        <img src="https://fakeimg.pl/150x150?text=Pro2" alt="Professional 2">
+                        <h3>Nannie Lawrence</h3>
+                        <p>Best Little Smile</p>
+                    </div>
+                    <div>
+                        <img src="https://fakeimg.pl/150x150?text=Pro3" alt="Professional 3">
+                        <h3>Bruce Walters</h3>
+                        <p>Best Friend Smile</p>
+                    </div>
+                    <div>
+                        <img src="https://fakeimg.pl/150x150?text=Pro4" alt="Professional 4">
+                        <h3>Henry Hughes</h3>
+                        <p>24h Smiles Winner</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- QUOTE -->
+        <section class="quote">
+            <div class="quote-container">
+                <img src="https://fakeimg.pl/200x200?text=User" alt="User profile">
+                <div>
+                    <q>This is the best platform I’ve ever used to improve my smile!</q>
+                    <h4>John Doe</h4>
+                    <p>SmileSchool Student</p>
+                </div>
+            </div>
+        </section>
+        <!-- VIDEOS -->
+        <section class="videos">
+            <h2>Most Popular Tutorials</h2>
+            <div class="video-list">
+                <div class="video-item">
+                    <img src="https://fakeimg.pl/300x200?text=Video1" alt="Video 1">
+                    <h3>Diagonal Smile</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                    <div class="author">
+                        <img src="https://fakeimg.pl/50x50?text=A1" alt="Author 1">
+                        <h4>Phillip Massey</h4>
+                    </div>
+                    <div class="rating">
+                        <img src="https://fakeimg.pl/20x20?text=★">
+                        <img src="https://fakeimg.pl/20x20?text=★">
+                        <img src="https://fakeimg.pl/20x20?text=★">
+                        <img src="https://fakeimg.pl/20x20?text=★">
+                        <img src="https://fakeimg.pl/20x20?text=☆">
+                        <p>8 min</p>
+                    </div>
+                </div>
+                <!-- Add 3 more video items (same pattern) -->
+                <div class="video-item">
+                    <img src="https://fakeimg.pl/300x200?text=Video2" alt="Video 2">
+                    <h3>Sad Smile</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                    <div class="author">
+                        <img src="https://fakeimg.pl/50x50?text=A2" alt="Author 2">
+                        <h4>Nannie Lawrence</h4>
+                    </div>
+                    <div class="rating">
+                        <img src="https://fakeimg.pl/20x20?text=★">
+                        <img src="https://fakeimg.pl/20x20?text=★">
+                        <img src="https://fakeimg.pl/20x20?text=★">
+                        <img src="https://fakeimg.pl/20x20?text=☆">
+                        <img src="https://fakeimg.pl/20x20?text=☆">
+                        <p>5 min</p>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <img src="https://fakeimg.pl/300x200?text=Video3" alt="Video 3">
+                    <h3>Natural Smile</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                    <div class="author">
+                        <img src="https://fakeimg.pl/50x50?text=A3" alt="Author 3">
+                        <h4>Bruce Walters</h4>
+                    </div>
+                    <div class="rating">
+                        <img src="https://fakeimg.pl/20x20?text=★">
+                        <img src="https://fakeimg.pl/20x20?text=★">
+                        <img src="https://fakeimg.pl/20x20?text=★">
+                        <img src="https://fakeimg.pl/20x20?text=★">
+                        <img src="https://fakeimg.pl/20x20?text=☆">
+                        <p>13 min</p>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <img src="https://fakeimg.pl/300x200?text=Video4" alt="Video 4">
+                    <h3>Happy Smile</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                    <div class="author">
+                        <img src="https://fakeimg.pl/50x50?text=A4" alt="Author 4">
+                        <h4>Henry Hughes</h4>
+                    </div>
+                    <div class="rating">
+                        <img src="https://fakeimg.pl/20x20?text=★">
+                        <img src="https://fakeimg.pl/20x20?text=★">
+                        <img src="https://fakeimg.pl/20x20?text=★">
+                        <img src="https://fakeimg.pl/20x20?text=☆">
+                        <img src="https://fakeimg.pl/20x20?text=☆">
+                        <p>10 min</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- MEMBERSHIP -->
+        <section class="membership">
+            <h2>Our Membership</h2>
+            <div class="plan-list">
+                <div class="plan">
+                    <img src="https://fakeimg.pl/150x150?text=Plan1" alt="Plan 1">
+                    <h3>Smile Basic</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="plan">
+                    <img src="https://fakeimg.pl/150x150?text=Plan2" alt="Plan 2">
+                    <h3>Smile Premium</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="plan">
+                    <img src="https://fakeimg.pl/150x150?text=Plan3" alt="Plan 3">
+                    <h3>Smile Pro</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="plan">
+                    <img src="https://fakeimg.pl/150x150?text=Plan4" alt="Plan 4">
+                    <h3>Smile Unlimited</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <button>REGISTER</button>
+        </section>
+        <!-- FAQ -->
+        <section class="faq">
+            <h2>FAQ</h2>
+            <div class="faq-rows">
+                <div class="row">
+                    <div class="item">
+                        <h3>How does this work?</h3>
+                        <p>Lorem ipsum dolor sit amet…</p>
+                    </div>
+                    <div class="item">
+                        <h3>How does this work?</h3>
+                        <p>Lorem ipsum dolor sit amet…</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="item">
+                        <h3>How does this work?</h3>
+                        <p>Lorem ipsum dolor sit amet…</p>
+                    </div>
+                    <div class="item">
+                        <h3>How does this work?</h3>
+                        <p>Lorem ipsum dolor sit amet…</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <!-- Footer Section -->
     <footer>
-        <p>Copyright © 2024 TechCon Conference. All rights reserved.</p>
+        <section>
+            <div>
+                <img src="https://fakeimg.pl/200x60?text=Logo" alt="Footer logo">
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <p>© SmileSchool 2020</p>
+        </section>
     </footer>
 </body>
 </html>
